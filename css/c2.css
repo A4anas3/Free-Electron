@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    background-color: #455A64;
+    color: black;
+    overflow: hidden;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0.9vh;
+}
+
+.header{
+    background: #17242a;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 99.9vw;
+}
+
+.header h1{
+    font-family: Helvetica, sans-serif;
+    margin-top: 2px;
+    margin-bottom: 0;
+    text-align: center;
+   font-size: 3vw ;
+   color: rgb(128, 209, 228);
+ 
+}
+
+.simulate {
+    width: 78vw;
+    height: 88vh;
+    border: 3px solid black;
+    position: relative;
+    background-color: #455A64;
+}
+
+.simulate #lab {
+    height: 88vh;
+    width: 78vw;
+    visibility: visible;
+    position: absolute;
+}
+
+
+marquee {
+    color: red;
+    font-size: larger;
+    height: 5%;
+    background-color: #1a4052;
+}
+
+#work {
+    width: 78.9vw;
+    height: 88vh;
+    position: absolute;
+}
+
+.inbox {
+    width: 16vw;
+    height: 50vh;
+    transform: translate(5.5vw, 16vh);
+    background-color: #ffffff;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.button {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 40vw;
+    height: 7vh;
+    left: 28.5%;
+    top: 66.5%;
+    background-color: #ffffff;
+    border: 2px solid black;
+}
+
+.auto {
+    font-size: 1vw;
+    margin-left: 4%;
+    margin-top: 2%;
+    box-shadow: 1.5px 1.5px 0px 1px black;
+}
+
+.card {
+    position: absolute;
+    width: 40vw;
+    height: 41.5vh;
+    background-color: white;
+    border: 2px solid black;
+    left: 28.5%;
+    bottom: 34%;
+}
+
+#myChart {
+    height: 100%;
+    width: 100%;
+}
+
+#message{
+    margin-left: 1%;
+    flex: 1;
+    background: #6190a6;
+    text-align: center;
+    border: 3px solid black;
+    width: 20vw;
+    height: 88vh;
+    position: relative;
+}
+#ins{
+    margin: 0;
+    padding: 0;
+    font-size: 3vw;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#text{
+
+    margin: 0;
+    font-size: 1.5vw;
+    font-weight: 700;
+    color: rgb(107, 23, 4);
+}
+
+#start {
+    position: absolute;
+    border-radius: 30%;
+    font-size: 3vw;
+    left: 35%;
+    top: 70%;
+    border: none;
+    color: white;
+    background-color: green;
+    box-shadow: 2px 2px 0px 1px black;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1%;
+}
+
+#start a {
+    text-decoration: none;
+    color: white;
+}
