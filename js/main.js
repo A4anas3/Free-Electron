@@ -1,14 +1,10 @@
-let currentStep = "step1";  //controls the experiment step
-
-//speak (disabled)
+let currentStep = "step1";  
 let btn = document.querySelector("#start");
 let txt = document.querySelector("#text");
 let txt1 = document.querySelector(".step1");
 
 function speak(text){
-    // Speech has been intentionally disabled — no sound will play.
-    // Keeping this no-op preserves all existing calls to `speak(...)`
-    // so the UI text updates and flow remain unchanged.
+    
     return;
 }
 
