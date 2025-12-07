@@ -16,7 +16,6 @@ btn.addEventListener('click',()=>{
     speak(txt1.innerText);
 })
 
-//timer
 function timer(){
     if(currentStep !== "step1") return;
     currentStep = "step2";

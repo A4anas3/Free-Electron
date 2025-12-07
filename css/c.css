@@ -114,7 +114,7 @@ circle {
     visibility: visible;
     margin: 0px;
     padding: 0px;
-    width: 18vw;
+    width: 25vw;
     height: 35vh;
     transform: translate(5vw, 20vh); 
 }
@@ -125,27 +125,30 @@ circle {
 }
 
 .pcimage{
-    height: 35vh;
-    width: 18vw;
+    height: 40vh;
+    width: 25vw;
+    margin-bottom: 2px;
+    padding-bottom: 1rem;
     visibility: visible;
 }
 
 .pcimage:hover{
-    height: 35.2vh;
-    width: 18.2vw;
+    height: 40.2vh;
+    width: 25.2vw;
 }
 
 .hovpc{
     position: absolute;
     font-size: 1.5vw;
     color: black;
+
     background-color: white;
     visibility: hidden;
     border-width: 1px;
     border-style: solid;
     border-color: black;
     border-image: initial;
-    top: 80%;
+    top: 100%;
 }
 
 
@@ -154,7 +157,7 @@ circle {
     margin: 0;
     padding: 0;
     height: 28vh;
-    width: 17vw;
+    width: 13vw;
     visibility: visible;
     transform: translate(20vw, -7vh);
 }
@@ -165,14 +168,15 @@ circle {
 }
 
 #spectoimg{
-    height: 28vh;
-    width: 17vw;
+    margin-top: 10vh;
+    height: 14vh;
+    width: 12vw;
     visibility: visible;
 }
 
 #spectoimg:hover{
-    height: 28.2vh;
-    width: 17.2vw;
+    height: 14.2vh;
+    width: 12.2vw;
 }
 
 #hovspecto{
@@ -193,7 +197,7 @@ circle {
     margin: 0;
     padding: 0;
     height: 3vh;
-    width: 15vw;
+    width: 13vw;
     visibility: visible;
     transform: translate(32vw, -18vh);
 }
@@ -203,7 +207,7 @@ circle {
 }
 
 .pippeteimg{
-    height: 15vh;
+    height: 14vh;
     width: 3vw;
     visibility: visible;
     transform: rotate(90deg);
@@ -228,6 +232,8 @@ circle {
 #conicalflask{
     position: relative;
     margin: 0;
+    margin-right: 6vh;
+    
     padding: 0;
     height: 20vh;
     width: 5vw;
@@ -239,13 +245,18 @@ circle {
     transition: 0.1s;
 }
 .flaskimg{
-    height: 20vh;
+    margin-top: 5vh;
+    margin-right: 4vw;
+  
+    padding-bottom: 0;
+    margin-bottom: 0px;
+    height: 15vh;
     width: 5vw;
     visibility: visible;
 }
 .flaskimg:hover{
-    height: 20.1vh;
-    width: 5.1vw;
+    height: 15.1vh;
+    width: 5.3vw;
 }
 #hovflask{
     position: absolute;
@@ -264,8 +275,8 @@ circle {
     position: relative;
     margin: 0;
     padding: 0;
-    height: 8vh;
-    width: 5vw;
+    height: 5vh;
+    width: 3vw;
     visibility: visible;
     transform: translate(42vw, -39vh);
 }
@@ -274,13 +285,14 @@ circle {
     transition: 0.1s;
 }
 .cuvetteimg{
-    height: 8vh;
-    width: 5vw;
+    height: 3vh;
+    width: 2vw;
+    margin-top: 5.5vh;
     visibility: visible;
 }
 .cuvetteimg:hover{
-    height: 8.1vh;
-    width: 5.1vw;
+    height: 4.1vh;
+    width: 3.1vw;
 }
 #hovcuvette{
     position: absolute;
@@ -300,7 +312,7 @@ circle {
     margin: 0;
     padding: 0;
     height: 20vh;
-    width: 12vw;
+    width: 10vw;
     visibility: visible;
     transform: translate(42vw, -66vh);
 }
@@ -309,13 +321,14 @@ circle {
     transition: 0.1s;
 }
 .box1img{
-    height: 20vh;
-    width: 12vw;
+    height: 10vh;
+    width: 8vw;
+    margin-top: 18vh;
     visibility: visible;
 }
 .box1img:hover{
-    height: 20.1vh;
-    width: 12.1vw;
+    height: 11.1vh;
+    width: 9.1vw;
 }
 #hovbox1{
     position: absolute;
@@ -344,13 +357,14 @@ circle {
     transition: 0.1s;
 }
 .box2img{
-    height: 20vh;
-    width: 12vw;
+    height: 10vh;
+    width: 8vw;
+    margin-top: 13vh;
     visibility: visible;
 }
 .box2img:hover{
-    height: 20.1vh;
-    width: 12.1vw;
+    height: 11.1vh;
+    width: 9.1vw;
 }
 #hovbox2{
     position: absolute;
@@ -379,13 +393,15 @@ circle {
     transition: 0.1s;
 }
 .box3img{
-    height: 18vh;
-    width: 10vw;
+    height: 14vh;
+    width: 8vw;
+    margin-top: 6vh;
+    margin-right: 2vw;
     visibility: visible;
 }
 .box3img:hover{
-    height: 18.1vh;
-    width: 10.1vw;
+    height: 15.1vh;
+    width: 9.1vw;
 }
 #hovbox3{
     position: absolute;
@@ -405,7 +421,7 @@ circle {
     margin: 0;
     padding: 0;
     height: 18vh;
-    width: 10vw;
+    width: 11vw;
     visibility: visible;
     transform: translate(65vw, -118vh);
 }
@@ -414,12 +430,13 @@ circle {
     transition: 0.1s;
 }
 .box4img{
-    height: 18vh;
-    width: 10vw;
+    height: 15vh;
+    margin-top: 7vh;
+    width: 9vw;
     visibility: visible;
 }
 .box4img:hover{
-    height: 18.1vh;
+    height: 16.1vh;
     width: 10.1vw;
 }
 #hovbox4{
@@ -452,11 +469,14 @@ circle {
 .alfoilimg{
     height: 10vh;
     width: 5vw;
+        margin-top: 2vh;
+    margin-right: 1vw;
+    padding-right: 2vw;
     visibility: visible;
 }
 .alfoilimg:hover{
-    height: 10.1vh;
-    width: 5.1vw;
+    height: 11.1vh;
+    width: 6.1vw;
 }
 #hovalfoil{
     position: absolute;
